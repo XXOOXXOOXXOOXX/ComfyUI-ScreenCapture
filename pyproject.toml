@@ -1,0 +1,9 @@
+[project]
+name = "comfyui-screen-capture-bridge"
+version = "1.1.0"
+description = "Fresh screen/window capture from server, paired computers and browser sharing"
+requires-python = ">=3.10"
+dependencies = ["mss>=9.0,<11", "Pillow>=10.0"]
+
+[tool.comfy]
+DisplayName = "屏幕获取 — Screen Capture Bridge"
